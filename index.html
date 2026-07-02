@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Developer Tools Directory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #0b0c10;
+      color: #c5c6c7;
+    }
+    h1, h2 {
+      color: #66fcf1;
+    }
+    a {
+      color: #45a29e;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    .tool-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .tool-list li {
+      margin-bottom: 0.6rem;
+    }
+    .tool-name {
+      font-weight: 600;
+    }
+    .category-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9da5b4;
+      margin-bottom: 0.4rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1f2833;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Developer Tools Directory</h1>
+    <p>A curated list of core developer tools with links and short descriptions.</p>
+  </header>
+
+  <hr />
+
+  <section id="editors-ides">
+    <div class="category-label">Core Code Editors &amp; IDEs</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Visual Studio Code</span> —
+        <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com</a>
+        — Free, fast, extensible editor with huge ecosystem.
+      </li>
+      <li><span class="tool-name">IntelliJ IDEA</span> —
+        <a href="https://www.jetbrains.com/idea" target="_blank">https://www.jetbrains.com/idea</a>
+        — Premier Java/Kotlin IDE with deep code intelligence.
+      </li>
+      <li><span class="tool-name">WebStorm</span> —
+        <a href="https://www.jetbrains.com/webstorm" target="_blank">https://www.jetbrains.com/webstorm</a>
+        — JavaScript/TypeScript IDE focused on web development.
+      </li>
+      <li><span class="tool-name">PyCharm</span> —
+        <a href="https://www.jetbrains.com/pycharm" target="_blank">https://www.jetbrains.com/pycharm</a>
+        — Python IDE with strong refactoring and debugging.
+      </li>
+      <li><span class="tool-name">Atom (Archived)</span> —
+        <a href="https://github.com/atom/atom" target="_blank">https://github.com/atom/atom</a>
+        — Hackable editor; discontinued but still used.
+      </li>
+      <li><span class="tool-name">Sublime Text</span> —
+        <a href="https://www.sublimetext.com" target="_blank">https://www.sublimetext.com</a>
+        — Lightweight, fast editor with powerful multi-cursor editing.
+      </li>
+      <li><span class="tool-name">Vim</span> —
+        <a href="https://www.vim.org" target="_blank">https://www.vim.org</a>
+        — Modal text editor for power users.
+      </li>
+      <li><span class="tool-name">Neovim</span> —
+        <a href="https://neovim.io" target="_blank">https://neovim.io</a>
+        — Modern Vim with Lua scripting and better plugin architecture.
+      </li>
+    </ul>
+  </section>
+
+  <section id="version-control">
+    <div class="category-label">Version Control &amp; Collaboration</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Git</span> —
+        <a href="https://git-scm.com" target="_blank">https://git-scm.com</a>
+        — Distributed version control system.
+      </li>
+      <li><span class="tool-name">GitHub</span> —
+        <a href="https://github.com" target="_blank">https://github.com</a>
+        — Code hosting, issues, CI/CD, and collaboration.
+      </li>
+      <li><span class="tool-name">GitLab</span> —
+        <a href="https://gitlab.com" target="_blank">https://gitlab.com</a>
+        — Git hosting with integrated DevOps pipelines.
+      </li>
+      <li><span class="tool-name">Bitbucket</span> —
+        <a href="https://bitbucket.org" target="_blank">https://bitbucket.org</a>
+        — Git hosting with strong Jira integration.
+      </li>
+    </ul>
+  </section>
+
+  <section id="build-tools">
+    <div class="category-label">Build Tools &amp; Package Managers</div>
+    <h2>JavaScript / Web</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">npm</span> —
+        <a href="https://www.npmjs.com" target="_blank">https://www.npmjs.com</a>
+        — Default Node.js package manager.
+      </li>
+      <li><span class="tool-name">Yarn</span> —
+        <a href="https://yarnpkg.com" target="_blank">https://yarnpkg.com</a>
+        — Faster, more deterministic installs.
+      </li>
+      <li><span class="tool-name">pnpm</span> —
+        <a href="https://pnpm.io" target="_blank">https://pnpm.io</a>
+        — Space-efficient package manager using symlinks.
+      </li>
+      <li><span class="tool-name">Webpack</span> —
+        <a href="https://webpack.js.org" target="_blank">https://webpack.js.org</a>
+        — Powerful bundler for complex web apps.
+      </li>
+      <li><span class="tool-name">Vite</span> —
+        <a href="https://vitejs.dev" target="_blank">https://vitejs.dev</a>
+        — Lightning-fast dev server and bundler.
+      </li>
+    </ul>
+
+    <h2>Python</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">pip</span> —
+        <a href="https://pip.pypa.io" target="_blank">https://pip.pypa.io</a>
+        — Standard Python package manager.
+      </li>
+      <li><span class="tool-name">Poetry</span> —
+        <a href="https://python-poetry.org" target="_blank">https://python-poetry.org</a>
+        — Dependency management and virtual environments.
+      </li>
+    </ul>
+
+    <h2>Java</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">Maven</span> —
+        <a href="https://maven.apache.org" target="_blank">https://maven.apache.org</a>
+        — XML-based build automation.
+      </li>
+      <li><span class="tool-name">Gradle</span> —
+        <a href="https://gradle.org" target="_blank">https://gradle.org</a>
+        — Flexible build system using Groovy/Kotlin DSL.
+      </li>
+    </ul>
+  </section>
+
+  <section id="testing">
+    <div class="category-label">Testing Frameworks</div>
+    <h2>JavaScript</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">Jest</span> —
+        <a href="https://jestjs.io" target="_blank">https://jestjs.io</a>
+        — Popular testing framework with snapshot support.
+      </li>
+      <li><span class="tool-name">Mocha</span> —
+        <a href="https://mochajs.org" target="_blank">https://mochajs.org</a>
+        — Flexible JavaScript test runner.
+      </li>
+      <li><span class="tool-name">Cypress</span> —
+        <a href="https://www.cypress.io" target="_blank">https://www.cypress.io</a>
+        — Browser automation and end-to-end testing.
+      </li>
+    </ul>
+
+    <h2>Python</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">pytest</span> —
+        <a href="https://pytest.org" target="_blank">https://pytest.org</a>
+        — Simple, powerful testing with fixtures.
+      </li>
+    </ul>
+
+    <h2>Java</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">JUnit</span> —
+        <a href="https://junit.org" target="_blank">https://junit.org</a>
+        — Standard Java unit testing framework.
+      </li>
+    </ul>
+  </section>
+
+  <section id="api-backend">
+    <div class="category-label">API &amp; Backend Tools</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Postman</span> —
+        <a href="https://www.postman.com" target="_blank">https://www.postman.com</a>
+        — API testing, collections, and automation.
+      </li>
+      <li><span class="tool-name">Insomnia</span> —
+        <a href="https://insomnia.rest" target="_blank">https://insomnia.rest</a>
+        — REST/GraphQL client with a clean UI.
+      </li>
+      <li><span class="tool-name">Swagger / OpenAPI</span> —
+        <a href="https://swagger.io" target="_blank">https://swagger.io</a>
+        — API documentation and interactive UI.
+      </li>
+      <li><span class="tool-name">Docker</span> —
+        <a href="https://www.docker.com" target="_blank">https://www.docker.com</a>
+        — Containerization for reproducible environments.
+      </li>
+      <li><span class="tool-name">Kubernetes</span> —
+        <a href="https://kubernetes.io" target="_blank">https://kubernetes.io</a>
+        — Container orchestration at scale.
+      </li>
+    </ul>
+  </section>
+
+  <section id="databases">
+    <div class="category-label">Databases &amp; Tools</div>
+    <h2>SQL</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">MySQL</span> —
+        <a href="https://www.mysql.com" target="_blank">https://www.mysql.com</a>
+        — Popular open-source relational database.
+      </li>
+      <li><span class="tool-name">PostgreSQL</span> —
+        <a href="https://www.postgresql.org" target="_blank">https://www.postgresql.org</a>
+        — Advanced SQL database with rich features.
+      </li>
+      <li><span class="tool-name">SQLite</span> —
+        <a href="https://sqlite.org" target="_blank">https://sqlite.org</a>
+        — Lightweight embedded database.
+      </li>
+    </ul>
+
+    <h2>NoSQL</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">MongoDB</span> —
+        <a href="https://www.mongodb.com" target="_blank">https://www.mongodb.com</a>
+        — Document-based NoSQL database.
+      </li>
+      <li><span class="tool-name">Redis</span> —
+        <a href="https://redis.io" target="_blank">https://redis.io</a>
+        — In-memory key-value store, great for caching.
+      </li>
+    </ul>
+
+    <h2>GUI Clients</h2>
+    <ul class="tool-list">
+      <li><span class="tool-name">DBeaver</span> —
+        <a href="https://dbeaver.io" target="_blank">https://dbeaver.io</a>
+        — Universal database client.
+      </li>
+      <li><span class="tool-name">TablePlus</span> —
+        <a href="https://tableplus.com" target="_blank">https://tableplus.com</a>
+        — Fast, modern database GUI.
+      </li>
+    </ul>
+  </section>
+
+  <section id="web-dev">
+    <div class="category-label">Web Development Tools</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Chrome DevTools</span> —
+        <a href="https://developer.chrome.com/docs/devtools" target="_blank">https://developer.chrome.com/docs/devtools</a>
+        — Built-in debugging suite for Chrome.
+      </li>
+      <li><span class="tool-name">Firefox Developer Tools</span> —
+        <a href="https://firefox-source-docs.mozilla.org/devtools-user" target="_blank">https://firefox-source-docs.mozilla.org/devtools-user</a>
+        — Strong CSS and JavaScript debugging tools.
+      </li>
+      <li><span class="tool-name">Figma</span> —
+        <a href="https://www.figma.com" target="_blank">https://www.figma.com</a>
+        — UI/UX design and prototyping platform.
+      </li>
+      <li><span class="tool-name">Canva</span> —
+        <a href="https://www.canva.com" target="_blank">https://www.canva.com</a>
+        — Quick graphics and assets for web content.
+      </li>
+    </ul>
+  </section>
+
+  <section id="cloud-devops">
+    <div class="category-label">Cloud &amp; DevOps</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">AWS</span> —
+        <a href="https://aws.amazon.com" target="_blank">https://aws.amazon.com</a>
+        — Large-scale cloud platform.
+      </li>
+      <li><span class="tool-name">Azure</span> —
+        <a href="https://azure.microsoft.com" target="_blank">https://azure.microsoft.com</a>
+        — Enterprise cloud with strong Microsoft integration.
+      </li>
+      <li><span class="tool-name">Google Cloud</span> —
+        <a href="https://cloud.google.com" target="_blank">https://cloud.google.com</a>
+        — Cloud services with strong ML offerings.
+      </li>
+      <li><span class="tool-name">Terraform</span> —
+        <a href="https://www.terraform.io" target="_blank">https://www.terraform.io</a>
+        — Infrastructure as code.
+      </li>
+      <li><span class="tool-name">Ansible</span> —
+        <a href="https://www.ansible.com" target="_blank">https://www.ansible.com</a>
+        — Automation and configuration management.
+      </li>
+    </ul>
+  </section>
+
+  <section id="security">
+    <div class="category-label">Security Tools</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">OWASP ZAP</span> —
+        <a href="https://www.zaproxy.org" target="_blank">https://www.zaproxy.org</a>
+        — Web application vulnerability scanner.
+      </li>
+      <li><span class="tool-name">Burp Suite</span> —
+        <a href="https://portswigger.net/burp" target="_blank">https://portswigger.net/burp</a>
+        — Professional penetration testing toolkit.
+      </li>
+      <li><span class="tool-name">HashiCorp Vault</span> —
+        <a href="https://www.vaultproject.io" target="_blank">https://www.vaultproject.io</a>
+        — Secrets management and encryption.
+      </li>
+    </ul>
+  </section>
+
+  <section id="ai-ml">
+    <div class="category-label">AI / ML Tools</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">TensorFlow</span> —
+        <a href="https://www.tensorflow.org" target="_blank">https://www.tensorflow.org</a>
+        — Machine learning framework by Google.
+      </li>
+      <li><span class="tool-name">PyTorch</span> —
+        <a href="https://pytorch.org" target="_blank">https://pytorch.org</a>
+        — Flexible deep learning framework.
+      </li>
+      <li><span class="tool-name">Hugging Face Transformers</span> —
+        <a href="https://huggingface.co/transformers" target="_blank">https://huggingface.co/transformers</a>
+        — NLP models and pipelines.
+      </li>
+      <li><span class="tool-name">JupyterLab</span> —
+        <a href="https://jupyter.org" target="_blank">https://jupyter.org</a>
+        — Interactive notebooks for data science.
+      </li>
+    </ul>
+  </section>
+
+  <section id="cli-tools">
+    <div class="category-label">CLI Tools</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Homebrew</span> —
+        <a href="https://brew.sh" target="_blank">https://brew.sh</a>
+        — Package manager for macOS and Linux.
+      </li>
+      <li><span class="tool-name">Oh My Zsh</span> —
+        <a href="https://ohmyz.sh" target="_blank">https://ohmyz.sh</a>
+        — Zsh configuration framework.
+      </li>
+      <li><span class="tool-name">tmux</span> —
+        <a href="https://github.com/tmux/tmux" target="_blank">https://github.com/tmux/tmux</a>
+        — Terminal multiplexer.
+      </li>
+      <li><span class="tool-name">curl</span> —
+        <a href="https://curl.se" target="_blank">https://curl.se</a>
+        — Command-line tool for HTTP requests.
+      </li>
+    </ul>
+  </section>
+
+  <section id="containers">
+    <div class="category-label">Container &amp; Virtualization</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">Docker Desktop</span> —
+        <a href="https://www.docker.com/products/docker-desktop" target="_blank">https://www.docker.com/products/docker-desktop</a>
+        — GUI and engine for local containers.
+      </li>
+      <li><span class="tool-name">VirtualBox</span> —
+        <a href="https://www.virtualbox.org" target="_blank">https://www.virtualbox.org</a>
+        — Free virtualization platform.
+      </li>
+      <li><span class="tool-name">Vagrant</span> —
+        <a href="https://www.vagrantup.com" target="_blank">https://www.vagrantup.com</a>
+        — Reproducible development environments.
+      </li>
+    </ul>
+  </section>
+
+  <section id="code-quality">
+    <div class="category-label">Code Quality &amp; Linting</div>
+    <ul class="tool-list">
+      <li><span class="tool-name">ESLint</span> —
+        <a href="https://eslint.org" target="_blank">https://eslint.org</a>
+        — JavaScript linting.
+      </li>
+      <li><span class="tool-name">Prettier</span> —
+        <a href="https://prettier.io" target="_blank">https://prettier.io</a>
+        — Opinionated code formatter.
+      </li>
+      <li><span class="tool-name">SonarQube</span> —
+        <a href="https://www.sonarsource.com/products/sonarqube" target="_blank">https://www.sonarsource.com/products/sonarqube</a>
+        — Code quality and security scanning.
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <hr />
+    <p>Generated developer tools directory. Customize sections or styling as needed.</p>
+  </footer>
+</body>
+</html>
